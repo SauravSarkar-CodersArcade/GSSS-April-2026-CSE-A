@@ -13,7 +13,7 @@ int main(){
         if(height[left] < height[right]) 
             h = height[left];
         else
-            h = height[right];
+            h = height[right]; 
         int area = h * width;
         if(area > max_area){
             max_area = area;
